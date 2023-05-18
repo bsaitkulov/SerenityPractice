@@ -11,4 +11,5 @@ public class DisplayedArticle {
     public static Question<String> firstHeading() {
         return Text.of("#firstHeading");
     }
+
 }

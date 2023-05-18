@@ -17,7 +17,7 @@ class WhenSearchingForTerms {
     void searchBySingleKeyword() {
         wendy.attemptsTo(
                 Navigate.toTheHomePage(),
-                Search.byKeyword("Everest"),
+                Search.byKeyword("Elf"),
                 Ensure.that(DisplayedArticle.firstHeading()).isEqualTo("Mount Everest")
         );
     }
